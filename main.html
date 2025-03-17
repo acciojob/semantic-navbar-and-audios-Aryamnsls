@@ -1,53 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Semantic Navbar & Audios</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Navbar & Audios</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<!-- Header with Navigation -->
-<header>
-    <nav aria-label="Main Navigation">
-        <ul class="nav-list">
-            <li class="nav-item"><a href="#home">Home</a></li>
-            <li class="nav-item"><a href="#about">About</a></li>
-            <li class="nav-item"><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+    <!-- Header with Navigation -->
+    <header>
+        <nav aria-label="Main Navigation">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<!-- Main Content -->
-<main role="main">
-    <!-- Audio Section -->
-    <section id="audio-section" aria-labelledby="audio-heading">
-        <h2 id="audio-heading">3 Random Audios</h2>
+    <!-- Main Content -->
+    <main>
+        <!-- Audio Section -->
+        <section id="audio-section">
+            <h2>3 Random Audios</h2>
 
-        <figure>
-            <figcaption>Track 1: The Neverwritten Role Playing Game</figcaption>
-            <audio controls src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3">
-          
-            </audio>
-        </figure>
+            <figure>
+                <figcaption>Track 1: The Neverwritten Role Playing Game</figcaption>
+                <audio controls>
+                    <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </figure>
 
-        <figure>
-            <figcaption>Track 2: Epoq - Lepidoptera</figcaption>
-            <audio controls src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">
-               
-            </audio>
-        </figure>
+            <figure>
+                <figcaption>Track 2: Epoq - Lepidoptera</figcaption>
+                <audio controls>
+                    <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+                    Your browser does not support the audio element.
+                </audio>
+            </figure>
 
-        <figure>
-            <figcaption>Track 3: Paza - Moduless</figcaption>
-            <audio controls src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3">
-           
-            </audio>
-        </figure>
-    </section>
-</main>
+            <figure>
+                <figcaption>Track 3: Paza - Moduless</figcaption>
+                <audio controls>
+                    <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </figure>
+        </section>
+    </main>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -4,26 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semantic Navbar & Audios</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Header with Navbar -->
+    <!-- Header with Navigation -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+        <nav aria-label="Main Navigation">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main Content -->
-    <main>
+    <main role="main">
         <!-- Audio Section -->
-        <section id="audio-section">
-            <h2>3 Random Audios</h2>
+        <section id="audio-section" aria-labelledby="audio-heading">
+            <h2 id="audio-heading">3 Random Audios</h2>
 
             <figure>
                 <figcaption>Track 1: The Neverwritten Role Playing Game</figcaption>
